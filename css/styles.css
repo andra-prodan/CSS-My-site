@@ -44,6 +44,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #EAF6F6;
+}
+
 hr{
     width: 5%;
     border: none;
@@ -150,18 +154,22 @@ hr{
 
   .at{
     color: #EAF6F6;
+    font-size: 0.7em;
   }
 
   .footer-link{
         margin: 20px;
-        color: #11999E;
-        text-decoration: none;
  }
 
 /*********ID selectors**********/
 
 #Melo{
     font-weight: bold;
+}
+
+#Melo:hover{
+    font-weight: bold;
+    color: #61dce0;
 }
 
 #pro{
